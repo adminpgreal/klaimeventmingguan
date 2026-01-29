@@ -1,32 +1,30 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <title>Spin Animasi</title>
-  <style>
-    .spinner {
-      width: 80px;
-      height: 80px;
-      border: 8px solid #e0e0e0;
-      border-top: 8px solid #3498db;
-      border-radius: 50%;
-      animation: spin 1s linear infinite;
-      margin: 100px auto;
-    }
-
-    @keyframes spin {
-      0% {
-        transform: rotate(0deg);
-      }
-      100% {
-        transform: rotate(360deg);
-      }
-    }
-  </style>
+<meta charset="UTF-8">
+<title>Hallo Bella</title>
+<style>
+  body {
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial;
+  }
+  h1 {
+    animation: muncul 2s infinite;
+  }
+  @keyframes muncul {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+</style>
 </head>
 <body>
 
-  <div class="spinner"></div>
+<h1>💖 Hallo Bella 💖</h1>
 
 </body>
 </html>
